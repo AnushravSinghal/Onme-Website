@@ -1,0 +1,123 @@
+.h2-color {
+    color: #434790;
+}
+
+h4.pink {
+    color: #F22156;
+    font-family: "Bagel Fat One";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 125% */
+
+    & span {
+        color: #5C5C5C;
+        font-family: "Bagel Fat One";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* 133.333% */
+        text-decoration-line: line-through;
+        padding-left: 20px;
+    }
+}
+
+.product-section {
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+.product-details {
+    color: #2D2D2D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-block: 1px solid #F8D6DF;
+    margin-block: 32px;
+    padding-block: 32px;
+}
+
+.product-details.two {
+    border-block: 1px solid transparent;
+    border-top: 1px solid #F8D6DF;
+}
+
+.add_btn {
+    border-radius: 120px;
+    background: #FFE5EC;
+}
+
+.cartbtn button {
+    width: 100%;
+    border-radius: 120px;
+}
+
+.data-on-update {
+    align-self: center;
+}
+
+.add_btn {
+
+    #subtract-data,
+    #add-data {
+        background: transparent;
+        color: #F22156;
+    }
+}
+
+/* Section 2 css */
+.more-info-section {
+    padding-block: 80px;
+    background: #FFE5EC;
+}
+
+.nav.nav-pills {
+    border-bottom: 1px solid #F22156;
+    ;
+}
+
+#pills-home {
+    padding-top: 40px;
+}
+
+.more-info-section .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: #F22156;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.more-info-section .nav-link:focus-visible{
+    box-shadow: none;
+}
+
+.more-info-section .nav-pills .nav-link {
+    color: #5C5C5C;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.browse-btn{
+ border-radius: 120px;
+ width: fit-content;
+ margin: auto;
+}
+
+@media screen and (max-width:600px) {
+    .cartbtn{
+        margin-top: 20px;
+    }
+}
