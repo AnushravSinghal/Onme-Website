@@ -903,6 +903,16 @@ nav li:first-child{
     padding-inline: 16px;
   }
 
+  h1 {
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Bagel Fat One";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+  }
   
   
 }
