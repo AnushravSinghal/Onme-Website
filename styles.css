@@ -912,7 +912,7 @@ nav li:first-child{
   }
 
   .hero {
-    padding-top:120px;
+    padding-top:120px !important;
   }
   
   .section{
