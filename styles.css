@@ -927,5 +927,17 @@ nav li:first-child{
 
 @media only screen and (max-width: 450px){
   .footer-links{
-flex-wrap: nowrap;  }
+    flex-direction: column;
+    align-items: center;
+flex-wrap: nowrap;
+gap:16px;  }
+
+.quick-links{
+  align-items: center;
+  justify-content: center;
+}
+
+.footer form {
+  align-self: center;
+}
 }
