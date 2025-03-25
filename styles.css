@@ -915,5 +915,12 @@ nav li:first-child{
     padding:120px 16px 40px 16px;
   }
   
+  .section{
+    padding: 40px 16px;
+  }
+
+  .footer{
+    padding: 40px 16px;
+  }
   
 }
