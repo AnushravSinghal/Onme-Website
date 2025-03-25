@@ -910,6 +910,10 @@ nav li:first-child{
   .hero p {
     font-size:16px;
   }
+
+  .section{
+    padding-block:40px;
+  }
   
   
 }
