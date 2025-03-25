@@ -911,8 +911,8 @@ nav li:first-child{
     font-size:16px;
   }
 
-  .section{
-    padding-block:40px;
+  .hero .section{
+    padding-block:120px;
   }
   
   
