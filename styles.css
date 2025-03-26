@@ -277,7 +277,7 @@ button {
 }
 
 .bgrnd {
-  width: 90%;
+  width: 95%;
   height: 88%;
   position: absolute;
   left: 50%;
@@ -700,6 +700,8 @@ nav {
 .slick-slide {
   transform: scale(0.8);
   transition: all 0.5s;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .slick-slide img {
@@ -710,15 +712,72 @@ nav {
   transition: all 0.5s;
 }
 
+.overlayslider{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2d2d2dc5;
+  top:0;
+  display: none;
+  color: #fefefe;
+}
+
+.slick-slide .overlay{
+  display: none;
+}
+
 .slick-center {
   transform: scale(1);
   border-radius: 20px;
 }
 
+.slick-center .overlayslider{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  padding: 20px;
+  text-align: left;
+}
+
+.overlayslider h3{
+  align-self: stretch;
+  color: #FFF;
+font-family: "Bagel Fat One";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.overlayslider .testimonial-description{
+  text-align: left;
+  align-self: stretch;
+  color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 8px;
+}
+
+.overlayslider .testimonial-name{
+  text-align: left;
+  margin-top: 40px;
+  color: #FFF;
+font-family: "Bagel Fat One";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
 .slick-arrow {
   margin: 0;
   transform: scale(1.5);
-  /* opacity: 1; */
+  
 }
 
 .slick-next {
