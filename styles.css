@@ -63,7 +63,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 120px;
+  border-radius: 120px !important;
   background: #f22156;
   border: none;
   color: #fefefe;
@@ -247,6 +247,10 @@ button {
   align-items: center;
   gap: 24px;
   align-self: stretch;
+}
+
+.subscription-details li{
+  text-align:left;  
 }
 
 .subscription-item:nth-child(2){
@@ -611,7 +615,7 @@ button {
   display: flex;
   align-items: flex-start;
   gap: 8px;
-  color: #fefefe;
+  color: #fefefe !important;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;

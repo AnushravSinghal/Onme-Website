@@ -18,107 +18,171 @@
   </head>
   <body>
     <nav>
-        <ul class="sidebar">
-          <li onclick="hideSidebar()">
-            <a href="#"><img src="img/Final Logo.svg" /></a>
-          </li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Subscribe</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <ul>
-          <li>
-            <a href="#"><img src="img/Final Logo.svg" width="40px" /></a>
-          </li>
-          <li class="hideOnMobile"><a href="#">About</a></li>
-          <li class="hideOnMobile"><a href="#">Menu</a></li>
-          <li class="hideOnMobile"><a href="#">Shop</a></li>
-          <li class="hideOnMobile"><a href="#">Subscribe</a></li>
-          <li class="hideOnMobile"><a href="#">Contact</a></li>
-          <li class="menu-button" onclick="showSidebar()">
-            <a href="#"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="26"
-                viewBox="0 96 960 960"
-                width="26"
-              >
-                <path
-                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
-                />
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="section subscriptionmain">
-    <div class="container">
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><img src="img/Final Logo.svg" /></a>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="subscription.html">Subscribe</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#"><img src="img/Final Logo.svg" width="40px" /></a>
+        </li>
+        <li class="hideOnMobile"><a href="#">About</a></li>
+        <li class="hideOnMobile"><a href="#">Menu</a></li>
+        <li class="hideOnMobile"><a href="#">Shop</a></li>
+        <li class="hideOnMobile"><a href="#">Subscribe</a></li>
+        <li class="hideOnMobile"><a href="#">Contact</a></li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="26"
+              viewBox="0 96 960 960"
+              width="26"
+            >
+              <path
+                d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="section subscriptionmain">
+      <div class="container">
         <div class="section-heading">
-            <h2>Your Coffee, On Your Terms</h2>
-            <p>Freshly roasted, delivered just when you need it.</p>
-          </div>
-        <div class="row gy-5">
-            <div class="col-lg-4"><div class="subscription-item">
-                <div class="subscription-details">
-                  <p class="subscription-name">Casual Sipper</p>
-                  <p class="subscription-description">
-                    For those who love a good cup but don’t need one every day.
-                  </p>
-                  <ul>
-                    <li>6 free drinks per month</li>
-                    <li>10% off on additional drinks</li>
-                    <li>Early access to new seasonal specials</li>
-                  </ul>
-                </div>
-    
-                <div class="subscription-opt">
-                  <p class="price">₹499/month</p>
-                  <button>Subscribe</button>
-                </div>
-              </div></div>
-            <div class="col-lg-4"><div class="subscription-item promoted">
-                <div class="subscription-details">
-                  <p class="subscription-name">Daily Drinker</p>
-                  <p class="subscription-description">
-                    Your perfect everyday coffee fix.
-                  </p>
-                  <ul>
-                    <li>1 free drink every day (any size, any type)</li>
-                    <li>15% off on food orders</li>
-                    <li>Free size upgrades on select drinks</li>
-                    <li>Exclusive access to members-only tasting event</li>
-                  </ul>
-                </div>
-    
-                <div class="subscription-opt">
-                  <p class="price">₹999/month</p>
-                  <button>Subscribe</button>
-                </div>
-              </div></div>
-            <div class="col-lg-4"><div class="subscription-item">
-                <div class="subscription-details">
-                  <p class="subscription-name">Coffee Connoisseur</p>
-                  <p class="subscription-description">
-                    For the ones who live and breathe coffee.
-                  </p>
-                  <ul>
-                    <li>Unlimited brewed coffee (hot/cold)</li>
-                    <li>20% off on all specialty drinks</li>
-                    <li>1 free food item per week</li>
-                    <li>First access to limited-edition blends</li>
-                  </ul>
-                </div>
-    
-                <div class="subscription-opt">
-                  <p class="price">₹999/month</p>
-                  <button>Subscribe</button>
-                </div>
-              </div></div>
+          <h2>Your Coffee, On Your Terms</h2>
+          <p>Freshly roasted, delivered just when you need it.</p>
         </div>
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-4">
+            <div class="subscription-item">
+              <div class="subscription-details">
+                <p class="subscription-name">Casual Sipper</p>
+                <p class="subscription-description">
+                  For those who love a good cup but don’t need one every day.
+                </p>
+                <ul>
+                  <li>6 free drinks per month</li>
+                  <li>10% off on additional drinks</li>
+                  <li>Early access to new seasonal specials</li>
+                </ul>
+              </div>
+
+              <div class="subscription-opt">
+                <p class="price">₹499/month</p>
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="subscription-item promoted">
+              <div class="subscription-details">
+                <p class="subscription-name">Daily Drinker</p>
+                <p class="subscription-description">
+                  Your perfect everyday coffee fix.
+                </p>
+                <ul>
+                  <li>1 free drink every day (any size, any type)</li>
+                  <li>15% off on food orders</li>
+                  <li>Free size upgrades on select drinks</li>
+                  <li>Exclusive access to members-only tasting event</li>
+                </ul>
+              </div>
+
+              <div class="subscription-opt">
+                <p class="price">₹999/month</p>
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="subscription-item">
+              <div class="subscription-details">
+                <p class="subscription-name">Coffee Connoisseur</p>
+                <p class="subscription-description">
+                  For the ones who live and breathe coffee.
+                </p>
+                <ul>
+                  <li>Unlimited brewed coffee (hot/cold)</li>
+                  <li>20% off on all specialty drinks</li>
+                  <li>1 free food item per week</li>
+                  <li>First access to limited-edition blends</li>
+                </ul>
+              </div>
+
+              <div class="subscription-opt">
+                <p class="price">₹999/month</p>
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+    
+    <div class="section footer">
+        <div class="container horizontal">
+          <div class="logo-social">
+            <img src="img/final logo (white).svg" />
+            <div class="social">
+              <img src="img/Insia.svg" />
+              <img src="img/Pinterest.svg" />
+            </div>
+          </div>
+  
+          <div class="footer-links">
+            <div class="quick-links">
+              <h3>Quick Links</h3>
+  
+              <a>Shop</a>
+              <a>Subscriptions</a>
+              <a>About Us</a>
+              <a>Blog</a>
+              <a>Support</a>
+            </div>
+  
+            <div class="quick-links">
+              <h3>Contact</h3>
+  
+              <a><img src="img/call.svg" />+91 1234 567 890</a>
+              <a><img src="img/mail.svg" />info@onme.com</a>
+              <a
+                ><img src="img/location.svg" />2nd Floor, Amanora Mall<br />Hadapsur,
+                Pune<br />Maharashtra<br />412201</a
+              >
+            </div>
+  
+            <div class="quick-links">
+              <h3>Join Our Community</h3>
+              <p>
+                Join our community for exclusive flavors, behind-the-scenes
+                stories, and mindful coffee moments.
+              </p>
+  
+              <form>
+                <input type="email" placeholder="Enter your email" />
+                <button><img src="img/arrow_forward.svg" /></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+        function showSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "flex";
+        }
+        function hideSidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "none";
+        }
+        </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
