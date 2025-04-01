@@ -861,6 +861,20 @@ nav li:first-child{
 .menu-button{
   display: none;
 }
+
+.subscriptionmain{
+  background-color: #FEF0D7;
+  margin-top:100px;
+  text-align: center;
+}
+
+.promoted{
+  border: 2px solid #f22156;
+}
+
+.subscriptionmain .section-heading{
+  margin-bottom: 60px;
+}
 @media(max-width: 800px){
   .hideOnMobile{
     display: none;
