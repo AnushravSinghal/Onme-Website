@@ -277,7 +277,7 @@ button {
 
 .subscription-item:hover{
   transform: translateY(-24px);
-  transition: 200ms ease-in-out;
+  transition: 300ms ease-in-out;
 }
 
 .subscription {
@@ -909,6 +909,41 @@ nav li:first-child{
 
 .accordion-button:focus {
   border-color: transparent !important;
+}
+
+.contact{
+  padding-top:140px;
+}
+
+form .btn-primary{
+width: 100%;
+background-color: #f22156 !important;
+border: 0 !important;
+}
+
+form {
+  background-color: #ffdfe7 !important;
+  border-radius: 20px;
+}
+
+.left a img{
+  height: 24px;
+  object-fit: contain;
+  /* width:100%; */
+}
+
+.left a{
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+.left a:hover{
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+.contact .container{
+  margin-inline: auto;
 }
 
 @media(max-width: 800px){
