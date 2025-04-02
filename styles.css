@@ -275,6 +275,11 @@ button {
   /* align-self: stretch; */
 }
 
+.subscription-item:hover{
+  transform: translateY(-24px);
+  transition: 200ms ease-in-out;
+}
+
 .subscription {
   position: relative;
   /* background:red; */
