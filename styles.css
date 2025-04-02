@@ -921,7 +921,7 @@ background-color: #f22156 !important;
 border: 0 !important;
 }
 
-form {
+.section form {
   background-color: #ffdfe7 !important;
   border-radius: 20px;
 }
