@@ -812,6 +812,10 @@ nav{
   background-color: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
+
+nav ul{
+  margin-bottom: 0 !important;
+}
 nav ul{
   width: 100%;
   list-style: none;
@@ -821,6 +825,9 @@ nav ul{
 }
 nav li{
   height: 50px;
+}
+.hideOnMobile:hover{
+background-color: transparent !important;
 }
 nav a{
   height: 100%;
@@ -832,7 +839,7 @@ nav a{
   font-family: 'Bagel Fat One';
 }
 nav a:hover{
-  background-color: #f0f0f0;
+  color: #f22156  !important;
 }
 nav li:first-child{
   margin-right: auto;
@@ -873,7 +880,7 @@ nav li:first-child{
 
 .subscriptionmain{
   background-color: #FEF0D7;
-  margin-top:100px;
+  padding-top:140px;
   text-align: center;
 }
 
@@ -884,6 +891,26 @@ nav li:first-child{
 .subscriptionmain .section-heading{
   margin-bottom: 60px;
 }
+
+.faq .section-heading{
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.accordion-item{
+  border:none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #f22156 !important;
+  background-color: #ffdfe7 !important;
+  box-shadow:none !important;
+}
+
+.accordion-button:focus {
+  border-color: transparent !important;
+}
+
 @media(max-width: 800px){
   .hideOnMobile{
     display: none;
@@ -1016,6 +1043,7 @@ nav li:first-child{
   }
   nav{
     padding: 20px 16px;
+    
   }
 }
 
