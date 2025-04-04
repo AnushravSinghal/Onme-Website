@@ -986,6 +986,9 @@ border: 0 !important;
 
 @media only screen and (max-width : 768px)
 {
+  .contact{
+    padding-top: 120px !important;
+  }
   .category{
     flex-direction: column;
   }
@@ -1119,5 +1122,9 @@ gap:16px;  }
 
 .footer form {
   align-self: center;
+}
+
+.contact{
+  padding-top: 100px;
 }
 }
