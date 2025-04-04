@@ -813,6 +813,18 @@ nav{
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
+.scroll{
+  /* background-color: red; */
+  width: 90vw;
+  border-radius: 80px;
+  margin-inline: auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 20px;
+  /* transition: 500ms ease; */
+
+}
+
 nav ul{
   margin-bottom: 0 !important;
 }
@@ -840,6 +852,11 @@ nav a{
 }
 nav a:hover{
   color: #f22156  !important;
+}
+
+nav a.active{
+  color: #f22156 !important;
+  /* font-weight: 700; */
 }
 nav li:first-child{
   margin-right: auto;
@@ -944,6 +961,12 @@ border: 0 !important;
 
 .contact .container{
   margin-inline: auto;
+}
+
+.form-control:focus, .form-select:focus, .form-check-input:focus{
+  box-shadow: none !important;
+  border-color: #2d2d2d !important;
+
 }
 
 @media(max-width: 800px){
