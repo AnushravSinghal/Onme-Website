@@ -356,6 +356,13 @@
         const sidebar = document.querySelector(".sidebar");
         sidebar.style.display = "none";
       }
+      function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("nav").classList.add("scroll");
+  } else {
+    document.getElementById("nav").classList.remove("scroll");
+  }
+}
     </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
