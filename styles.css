@@ -941,6 +941,7 @@ border: 0 !important;
 .contact form {
   background-color: #ffdfe7 !important;
   border-radius: 20px;
+  padding: 20px 16px;
 }
 
 .left a img{
@@ -1111,6 +1112,14 @@ border: 0 !important;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .contact .container{
+    padding-inline: 0px;
+  }
+
+  .contact form{
+    padding: 40px 16px;
   }
 }
 
